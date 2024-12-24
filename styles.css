@@ -4,7 +4,9 @@ h1 {
 
 img {
     max-height:500px;
-    max-width: 500px;}
+    max-width: 500px;
+    border-radius: 12px;
+}
 
 h2 {
     font-family: Palatino, serif;}
