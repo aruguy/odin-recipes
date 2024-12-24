@@ -18,6 +18,7 @@ p {
     font-family: Arial, Helvetica, sans-serif;}
 
 .photo {
+    display:inline-block;
     float: right;}
 
 hr { border: 2px dashed #aaaaaa;
