@@ -1,10 +1,22 @@
 h1 {
-    font-family: 'Brush Script MT', 'Times New Roman', Times, serif ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: italic;
 }
+img {
+    max-height:500px;
+    max-width: 500px;
+}
 h2 {
-    font-family: 'Brush Script MT', 'Times New Roman', Times, serif ;
+    font-family: Palatino, serif;
 }
-h2 p{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+li {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.photo {
+    float: right;
+}
+hr { border: 2px dashed #aaaaaa;
+    border-radius: 5px;}
