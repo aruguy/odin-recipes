@@ -1,38 +1,61 @@
 h1 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-style: italic;}
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	font-style: italic;
+}
 
 img {
-    max-height:500px;
-    max-width: 500px;
-    border-radius: 12px;
+	height: 350px;
+	width: 500px;
+	border-radius: 12px;
 }
 
 h2 {
-    font-family: Palatino, serif;}
+	font-family: Palatino, serif;
+}
 
 p {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
 
 .ingredient-list ul {
-    font-family: Arial, Helvetica, sans-serif;}
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.ingredient-list div {
+	display: inline-flex;
+	border-style: solid;
+	border-color: red;
+}
 
 .photo {
-    display:inline-block;
-    float: right;}
+	position: absolute;
+	width: 500px;
+}
 
-hr { border: 2px dashed #aaaaaa;
-    border-radius: 5px;}
+.description {
+	margin-left: 512px;
+}
+
+hr {
+	border: 2px dashed #aaaaaa;
+	border-radius: 5px;
+}
 
 .index {
-        font-size:larger;}
+	font-size: larger;
+}
 
 .index ul {
-    list-style-type: square;
+	list-style-type: square;
 }
 
 .instructions {
-    background-color: whitesmoke;
-    border-radius: 12px;
+	background-color: whitesmoke;
+	border-radius: 12px;
 }
-    
+.upper {
+	margin: 20px;
+}
+.lower {
+	margin: 20px;
+}
